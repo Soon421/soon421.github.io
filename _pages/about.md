@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: "M.S. Student, Intelligent Systems & Robotics Lab, Korea University<br>Advisor: Prof. Woojin Chung"
+subtitle: >
+  M.S. Student, Intelligent Systems & Robotics Lab<br>
+  Korea University<br>
+  Advisor: Prof. Woojin Chung
 
 profile: false # add a profile image after replacing the placeholder content
 selected_papers: false
@@ -15,13 +18,121 @@ latest_posts:
   enabled: false
 ---
 
-I am **Soonhwan Kwon (권순환)**, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung.
+<style>
+  .soon-home {
+    max-width: 720px;
+  }
 
-My research interests lie in mobile robotics, with a focus on perception and navigation, as well as robot learning and simulation.
+  .soon-home__lede {
+    margin: 0.45rem 0 0.9rem;
+    font-size: 1.01rem;
+    line-height: 1.7;
+  }
 
-## research interests
+  .soon-home__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 1.6rem;
+  }
 
-- Mobile robot perception and navigation
-- Robot learning and simulation
+  .soon-home__links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.38rem 0.7rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+    color: var(--global-text-color);
+    background: var(--global-card-bg-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+  }
 
-More details will be added to [publications]({% link _pages/publications.md %}), [projects]({% link _pages/projects.md %}), and [CV]({% link _pages/cv.md %}).
+  .soon-home__links a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  .soon-home__focus {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+    margin: 0.8rem 0 1.9rem;
+  }
+
+  .soon-home__focus-item {
+    padding: 0.8rem 0 0.3rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .soon-home__focus-item strong {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: var(--global-text-color);
+    font-size: 0.96rem;
+    line-height: 1.4;
+  }
+
+  .soon-home__focus-item span {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .soon-home__direction {
+    margin: 0.6rem 0 1.5rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid var(--global-divider-color);
+    font-size: 0.98rem;
+    line-height: 1.65;
+  }
+
+  .soon-home__more {
+    font-size: 0.94rem;
+  }
+
+  @media (max-width: 768px) {
+    .soon-home {
+      max-width: none;
+    }
+
+    .soon-home__focus {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="soon-home">
+  <p class="soon-home__lede">
+    I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests are mobile robot perception and navigation, robot learning, and simulation.
+  </p>
+
+  <div class="soon-home__links" aria-label="Profile links">
+    <a href="mailto:shk01421@korea.ac.kr">Email</a>
+    <a href="https://github.com/Soon421">GitHub</a>
+  </div>
+
+  <div class="soon-home__focus" aria-label="Research interests">
+    <div class="soon-home__focus-item">
+      <strong>Mobile robot perception and navigation</strong>
+      <span>Perception and navigation methods for mobile robotic systems.</span>
+    </div>
+    <div class="soon-home__focus-item">
+      <strong>Robot learning and simulation</strong>
+      <span>Learning-based robotics and simulation-based development and evaluation.</span>
+    </div>
+  </div>
+
+  <h2>current research direction</h2>
+
+  <p class="soon-home__direction">
+    I am interested in developing mobile robotic systems by combining perception and navigation with robot learning and simulation. More specific research directions will be added as my work develops.
+  </p>
+
+  <p class="soon-home__more">
+    More details will be added to <a href="{% link _pages/publications.md %}">publications</a>, <a href="{% link _pages/projects.md %}">projects</a>, and <a href="{% link _pages/cv.md %}">CV</a>.
+  </p>
+</div>
