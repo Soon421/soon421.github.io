@@ -3,16 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Your
+first_name: Soonhwan
 middle_name:
-last_name: Name
+last_name: Kwon
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A personal academic portfolio for research, publications, projects, and CV.
+  Academic portfolio of Soonhwan Kwon, an M.S. student researching mobile robot
+  perception and navigation, robot learning, and simulation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: academic portfolio, robotics, research
+keywords: academic portfolio, mobile robot perception, navigation, robot learning, simulation
 lang: ko # change to en if the main language will be English
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -336,8 +337,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Name]
-  first_name: [Your]
+  last_name: [Kwon]
+  first_name: [Soonhwan]
 
   style: apa
   locale: en

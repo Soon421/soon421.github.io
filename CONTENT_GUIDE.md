@@ -14,3 +14,8 @@
 배포 전에 `_config.yml`의 `url`, `baseurl`, `first_name`, `last_name`과 `scholar` 이름을 실제 값으로 바꾸세요.
 
 GitHub에 올릴 때는 본인 저장소를 `origin`으로 추가하세요. 공식 al-folio 저장소는 업데이트 확인용 `upstream`으로 연결되어 있습니다.
+
+## 구성 참고
+
+- [Hyunseo Jang's academic portfolio](https://home.hyunseo.kr/)
+- 참고할 흐름: 짧은 소개 → 연구 관심 분야 → 현재 연구 방향 → 소식 → 선별 논문 → 대표 프로젝트

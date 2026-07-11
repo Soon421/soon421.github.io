@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Your affiliation · Your role
+subtitle: "M.S. Student, Intelligent Systems & Robotics Lab, Korea University<br>Advisor: Prof. Woojin Chung"
 
 profile: false # add a profile image after replacing the placeholder content
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
@@ -15,14 +15,13 @@ latest_posts:
   enabled: false
 ---
 
-안녕하세요. **Your Name**입니다.
+I am **Soonhwan Kwon (권순환)**, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung.
 
-이곳에 현재 소속, 연구 관심 분야, 해결하고 싶은 문제를 2~3문단으로 소개하세요.
+My research interests lie in mobile robotics, with a focus on perception and navigation, as well as robot learning and simulation.
 
 ## research interests
 
-- Research topic 1
-- Research topic 2
-- Research topic 3
+- Mobile robot perception and navigation
+- Robot learning and simulation
 
-자세한 내용은 [publications]({% link _pages/publications.md %}), [projects]({% link _pages/projects.md %}), [CV]({% link _pages/cv.md %})에서 확인할 수 있습니다.
+More details will be added to [publications]({% link _pages/publications.md %}), [projects]({% link _pages/projects.md %}), and [CV]({% link _pages/cv.md %}).

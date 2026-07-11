@@ -1,41 +1,16 @@
 cv:
-  name: Your Name
-  label: Researcher
-  email: your.email@example.com
+  name: Soonhwan Kwon
+  label: M.S. Student
+  email: shk01421@korea.ac.kr
   location: Seoul, Republic of Korea
   image: ""
-  summary: 한두 문장으로 현재 역할과 연구 관심 분야를 소개하세요.
+  summary: >
+    M.S. student in the Intelligent Systems & Robotics Lab at Korea University,
+    advised by Prof. Woojin Chung. Research interests include mobile robot
+    perception and navigation, robot learning, and simulation.
 
-  social_networks: []
+  social_networks:
+    - network: GitHub
+      username: Soon421
 
-  sections:
-    Education:
-      - institution: Your University
-        location: City, Country
-        area: Your Major
-        studyType: Degree
-        start_date: 20XX
-        end_date: Present
-        highlights:
-          - 주요 연구 또는 활동을 입력하세요.
-
-    Experience:
-      - company: Your Laboratory or Company
-        position: Your Role
-        location: City, Country
-        start_date: 20XX
-        end_date: Present
-        highlights:
-          - 담당 업무나 성과를 입력하세요.
-
-    Skills:
-      - name: Research & Engineering
-        level: ""
-        icon: fa-solid fa-code
-        keywords: "Skill 1, Skill 2, Skill 3"
-
-    Awards:
-      - title: Your Award
-        date: 20XX
-        awarder: Awarding Organization
-        summary: 수상 내용을 입력하세요.
+  sections: {}
