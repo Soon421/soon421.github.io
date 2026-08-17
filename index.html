@@ -15,7 +15,7 @@
 
   .soon-home__intro {
     display: grid;
-    grid-template-columns: 120px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 120px;
     gap: 1.2rem;
     align-items: start;
     margin: 0.45rem 0 1.6rem;
@@ -164,7 +164,7 @@
 
   @media (max-width: 576px) {
     .soon-home__intro {
-      grid-template-columns: 96px minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) 96px;
       gap: 0.9rem;
     }
 
@@ -178,7 +178,7 @@
       scroll-behavior: auto;
     }
   }
-</style> <div id="about" class="soon-home soon-home__section"> <div class="soon-home__intro"> <img class="soon-home__portrait" src="/assets/img/soonhwan-kwon.jpg" alt="Portrait of Soonhwan Kwon" width="120" height="160" loading="eager"> <div> <p class="soon-home__lede"> I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems &amp; Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics. </p> <div class="soon-home__links" aria-label="Profile links"> <a class="soon-home__link" href="mailto:shk01421@korea.ac.kr">Email</a> <a class="soon-home__link" href="https://github.com/Soon421" rel="external nofollow noopener" target="_blank">GitHub</a> <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span> </div> </div> </div> <section id="research" class="soon-home__section" aria-labelledby="research-title"> <h2 id="research-title" class="soon-home__focus-title">Research Areas</h2> <div class="soon-home__focus" aria-label="Research interests"> <div class="soon-home__focus-item"> <strong>Mobile robot navigation</strong> <span>Localization, planning, and control for autonomous mobile robots operating in complex real-world environments.</span> </div> <div class="soon-home__focus-item"> <strong>Simulation-based robotics</strong> <span>NVIDIA Isaac Sim environments, ROS 2 integration, simulation-based learning, and system-level evaluation.</span> </div> <div class="soon-home__focus-item"> <strong>Learning-based robotics</strong> <span>Multimodal learning, world models, robot policy learning, and vision-language-action models.</span> </div> </div> </section> <section id="projects" class="soon-home__section" aria-labelledby="projects-title"> <h2 id="projects-title" class="soon-home__projects-title">Projects</h2> <p class="soon-home__empty">Projects will be added as they are documented.</p> </section> </div> <script>
+</style> <div id="about" class="soon-home soon-home__section"> <div class="soon-home__intro"> <div> <p class="soon-home__lede"> I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems &amp; Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics. </p> <div class="soon-home__links" aria-label="Profile links"> <a class="soon-home__link" href="mailto:shk01421@korea.ac.kr">Email</a> <a class="soon-home__link" href="https://github.com/Soon421" rel="external nofollow noopener" target="_blank">GitHub</a> <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span> </div> </div> <img class="soon-home__portrait" src="/assets/img/soonhwan-kwon.jpg" alt="Portrait of Soonhwan Kwon" width="120" height="160" loading="eager"> </div> <section id="research" class="soon-home__section" aria-labelledby="research-title"> <h2 id="research-title" class="soon-home__focus-title">Research Areas</h2> <div class="soon-home__focus" aria-label="Research interests"> <div class="soon-home__focus-item"> <strong>Mobile robot navigation</strong> <span>Localization, planning, and control for autonomous mobile robots operating in complex real-world environments.</span> </div> <div class="soon-home__focus-item"> <strong>Simulation-based robotics</strong> <span>NVIDIA Isaac Sim environments, ROS 2 integration, simulation-based learning, and system-level evaluation.</span> </div> <div class="soon-home__focus-item"> <strong>Learning-based robotics</strong> <span>Multimodal learning, world models, robot policy learning, and vision-language-action models.</span> </div> </div> </section> <section id="projects" class="soon-home__section" aria-labelledby="projects-title"> <h2 id="projects-title" class="soon-home__projects-title">Projects</h2> <p class="soon-home__empty">Projects will be added as they are documented.</p> </section> </div> <script>
   const soonHomeMenu = document.getElementById("navbarNav");
   const soonHomeMenuToggle = document.querySelector('[data-nav-toggle="navbarNav"]');
 
