@@ -7,10 +7,7 @@ subtitle: >
   Korea University<br>
   Advisor: Prof. Woojin Chung
 
-profile:
-  align: right
-  image: soonhwan-kwon.jpg
-  image_circular: false
+profile: false
 selected_papers: false
 social: true
 
@@ -30,8 +27,24 @@ latest_posts:
     max-width: 720px;
   }
 
+  .soon-home__intro {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 1.2rem;
+    align-items: start;
+    margin: 0.45rem 0 1.6rem;
+  }
+
+  .soon-home__portrait {
+    display: block;
+    width: 120px;
+    height: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+  }
+
   .soon-home__lede {
-    margin: 0.45rem 0 0.9rem;
+    margin: 0 0 0.9rem;
     font-size: 1.01rem;
     line-height: 1.7;
   }
@@ -40,7 +53,7 @@ latest_posts:
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin: 1rem 0 1.6rem;
+    margin: 1rem 0 0;
   }
 
   .soon-home__link {
@@ -163,6 +176,17 @@ latest_posts:
     }
   }
 
+  @media (max-width: 576px) {
+    .soon-home__intro {
+      grid-template-columns: 96px minmax(0, 1fr);
+      gap: 0.9rem;
+    }
+
+    .soon-home__portrait {
+      width: 96px;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
@@ -176,14 +200,21 @@ Candidate: "My goal is to build autonomous mobile robots that can operate reliab
 {% endcomment %}
 
 <div id="about" class="soon-home soon-home__section">
-  <p class="soon-home__lede">
-    I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics.
-  </p>
+  <div class="soon-home__intro">
+    <img class="soon-home__portrait" src="{{ '/assets/img/soonhwan-kwon.jpg' | relative_url }}" alt="Portrait of Soonhwan Kwon" width="120" height="160" loading="eager">
 
-  <div class="soon-home__links" aria-label="Profile links">
-    <a class="soon-home__link" href="mailto:shk01421@korea.ac.kr">Email</a>
-    <a class="soon-home__link" href="https://github.com/Soon421">GitHub</a>
-    <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span>
+    <div>
+      <p class="soon-home__lede">
+        I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics.
+      </p>
+
+      <div class="soon-home__links" aria-label="Profile links">
+        <a class="soon-home__link" href="mailto:shk01421@korea.ac.kr">Email</a>
+        <a class="soon-home__link" href="https://github.com/Soon421">GitHub</a>
+        <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span>
+      </div>
+    </div>
+
   </div>
 
   <section id="research" class="soon-home__section" aria-labelledby="research-title">
