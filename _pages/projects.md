@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: 주요 연구 및 개발 프로젝트
-nav: true
+nav: false
 nav_order: 2
 ---
 
