@@ -82,14 +82,6 @@ latest_posts:
     line-height: 1.55;
   }
 
-  .soon-home__direction {
-    margin: 0.6rem 0 1.5rem;
-    padding-top: 0.9rem;
-    border-top: 1px solid var(--global-divider-color);
-    font-size: 0.98rem;
-    line-height: 1.65;
-  }
-
   .soon-home__more {
     font-size: 0.94rem;
   }
@@ -125,12 +117,6 @@ latest_posts:
       <span>Learning-based robotics and simulation-based development and evaluation.</span>
     </div>
   </div>
-
-  <h2>current research direction</h2>
-
-  <p class="soon-home__direction">
-    I am interested in developing mobile robotic systems by combining perception and navigation with robot learning and simulation. More specific research directions will be added as my work develops.
-  </p>
 
   <p class="soon-home__more">
     More details will be added to <a href="{% link _pages/publications.md %}">publications</a>, <a href="{% link _pages/projects.md %}">projects</a>, and <a href="{% link _pages/cv.md %}">CV</a>.
