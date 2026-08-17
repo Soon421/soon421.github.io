@@ -7,7 +7,10 @@ subtitle: >
   Korea University<br>
   Advisor: Prof. Woojin Chung
 
-profile: false # add a profile image after replacing the placeholder content
+profile:
+  align: right
+  image: soonhwan-kwon.jpg
+  image_circular: false
 selected_papers: false
 social: true
 
