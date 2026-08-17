@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 subtitle: >
   M.S. Student, Intelligent Systems & Robotics Lab<br>
   Korea University<br>
@@ -119,6 +121,6 @@ latest_posts:
   </div>
 
   <p class="soon-home__more">
-    More details will be added to <a href="{% link _pages/publications.md %}">publications</a>, <a href="{% link _pages/projects.md %}">projects</a>, and <a href="{% link _pages/cv.md %}">CV</a>.
+    More details will be added to <a href="{% link _pages/projects.md %}">projects</a> and <a href="{% link _pages/cv.md %}">CV</a>.
   </p>
 </div>

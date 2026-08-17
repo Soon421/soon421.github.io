@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: 논문과 학술 발표 목록
-nav: true
+nav: false
 nav_order: 2
 ---
 
