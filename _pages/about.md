@@ -60,7 +60,12 @@ latest_posts:
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.8rem;
-    margin: 0.8rem 0 1.9rem;
+    margin: 0.4rem 0 1.9rem;
+  }
+
+  .soon-home__focus-title {
+    margin: 0 0 0.4rem;
+    font-size: 1.2rem;
   }
 
   .soon-home__focus-item {
@@ -99,13 +104,15 @@ latest_posts:
 
 <div class="soon-home">
   <p class="soon-home__lede">
-    I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and vision-language-action models.
+    I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics.
   </p>
 
   <div class="soon-home__links" aria-label="Profile links">
     <a href="mailto:shk01421@korea.ac.kr">Email</a>
     <a href="https://github.com/Soon421">GitHub</a>
   </div>
+
+  <h2 class="soon-home__focus-title">Research Areas</h2>
 
   <div class="soon-home__focus" aria-label="Research interests">
     <div class="soon-home__focus-item">
@@ -114,11 +121,11 @@ latest_posts:
     </div>
     <div class="soon-home__focus-item">
       <strong>Simulation-based robotics</strong>
-      <span>Scalable and reproducible development, testing, and evaluation of robotic systems in simulated environments.</span>
+      <span>NVIDIA Isaac Sim environments, ROS 2 integration, simulation-based learning, and system-level evaluation.</span>
     </div>
     <div class="soon-home__focus-item">
-      <strong>Vision-language-action models</strong>
-      <span>Models that integrate visual observations and language instructions to generate robot actions.</span>
+      <strong>Learning-based robotics</strong>
+      <span>Multimodal learning, world models, robot policy learning, and vision-language-action models.</span>
     </div>
   </div>
 
