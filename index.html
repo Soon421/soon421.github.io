@@ -4,7 +4,7 @@
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A4%96&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://soon421.github.io/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/#projects">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/#cv">CV </a> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Soonhwan</span> Kwon </h1> <p class="desc">M.S. Student, Intelligent Systems &amp; Robotics Lab<br> Korea University<br> Advisor: Prof. Woojin Chung </p> </header> <article> <div class="profile float-right"> <figure> <picture> <img src="/assets/img/soonhwan-kwon.jpg?v=7b8ac5cb20267e01c5886b4c88eff108" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="soonhwan-kwon.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div class="clearfix"> <style>
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item active"> <a class="nav-link" href="/">about <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/#projects">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/#cv">CV </a> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <span class="font-weight-bold">Soonhwan</span> Kwon </h1> <p class="desc">M.S. Student, Intelligent Systems &amp; Robotics Lab<br> Korea University<br> Advisor: Prof. Woojin Chung </p> </header> <article> <div class="clearfix"> <style>
   html {
     scroll-behavior: smooth;
   }
@@ -13,8 +13,24 @@
     max-width: 720px;
   }
 
+  .soon-home__intro {
+    display: grid;
+    grid-template-columns: 120px minmax(0, 1fr);
+    gap: 1.2rem;
+    align-items: start;
+    margin: 0.45rem 0 1.6rem;
+  }
+
+  .soon-home__portrait {
+    display: block;
+    width: 120px;
+    height: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+  }
+
   .soon-home__lede {
-    margin: 0.45rem 0 0.9rem;
+    margin: 0 0 0.9rem;
     font-size: 1.01rem;
     line-height: 1.7;
   }
@@ -23,7 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin: 1rem 0 1.6rem;
+    margin: 1rem 0 0;
   }
 
   .soon-home__link {
@@ -146,12 +162,23 @@
     }
   }
 
+  @media (max-width: 576px) {
+    .soon-home__intro {
+      grid-template-columns: 96px minmax(0, 1fr);
+      gap: 0.9rem;
+    }
+
+    .soon-home__portrait {
+      width: 96px;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
     }
   }
-</style> <div id="about" class="soon-home soon-home__section"> <p class="soon-home__lede"> I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems &amp; Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics. </p> <div class="soon-home__links" aria-label="Profile links"> <a class="soon-home__link" href="mailto:shk01421@korea.ac.kr">Email</a> <a class="soon-home__link" href="https://github.com/Soon421" rel="external nofollow noopener" target="_blank">GitHub</a> <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span> </div> <section id="research" class="soon-home__section" aria-labelledby="research-title"> <h2 id="research-title" class="soon-home__focus-title">Research Areas</h2> <div class="soon-home__focus" aria-label="Research interests"> <div class="soon-home__focus-item"> <strong>Mobile robot navigation</strong> <span>Localization, planning, and control for autonomous mobile robots operating in complex real-world environments.</span> </div> <div class="soon-home__focus-item"> <strong>Simulation-based robotics</strong> <span>NVIDIA Isaac Sim environments, ROS 2 integration, simulation-based learning, and system-level evaluation.</span> </div> <div class="soon-home__focus-item"> <strong>Learning-based robotics</strong> <span>Multimodal learning, world models, robot policy learning, and vision-language-action models.</span> </div> </div> </section> <section id="projects" class="soon-home__section" aria-labelledby="projects-title"> <h2 id="projects-title" class="soon-home__projects-title">Projects</h2> <p class="soon-home__empty">Projects will be added as they are documented.</p> </section> </div> <script>
+</style> <div id="about" class="soon-home soon-home__section"> <div class="soon-home__intro"> <img class="soon-home__portrait" src="/assets/img/soonhwan-kwon.jpg" alt="Portrait of Soonhwan Kwon" width="120" height="160" loading="eager"> <div> <p class="soon-home__lede"> I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems &amp; Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics. </p> <div class="soon-home__links" aria-label="Profile links"> <a class="soon-home__link" href="mailto:shk01421@korea.ac.kr">Email</a> <a class="soon-home__link" href="https://github.com/Soon421" rel="external nofollow noopener" target="_blank">GitHub</a> <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span> </div> </div> </div> <section id="research" class="soon-home__section" aria-labelledby="research-title"> <h2 id="research-title" class="soon-home__focus-title">Research Areas</h2> <div class="soon-home__focus" aria-label="Research interests"> <div class="soon-home__focus-item"> <strong>Mobile robot navigation</strong> <span>Localization, planning, and control for autonomous mobile robots operating in complex real-world environments.</span> </div> <div class="soon-home__focus-item"> <strong>Simulation-based robotics</strong> <span>NVIDIA Isaac Sim environments, ROS 2 integration, simulation-based learning, and system-level evaluation.</span> </div> <div class="soon-home__focus-item"> <strong>Learning-based robotics</strong> <span>Multimodal learning, world models, robot policy learning, and vision-language-action models.</span> </div> </div> </section> <section id="projects" class="soon-home__section" aria-labelledby="projects-title"> <h2 id="projects-title" class="soon-home__projects-title">Projects</h2> <p class="soon-home__empty">Projects will be added as they are documented.</p> </section> </div> <script>
   const soonHomeMenu = document.getElementById("navbarNav");
   const soonHomeMenuToggle = document.querySelector('[data-nav-toggle="navbarNav"]');
 
