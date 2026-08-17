@@ -23,8 +23,11 @@ latest_posts:
     scroll-behavior: smooth;
   }
 
+  .post-header,
   .soon-home {
     max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .soon-home__intro {
