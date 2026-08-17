@@ -58,7 +58,7 @@ latest_posts:
 
   .soon-home__focus {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.8rem;
     margin: 0.8rem 0 1.9rem;
   }
@@ -99,7 +99,7 @@ latest_posts:
 
 <div class="soon-home">
   <p class="soon-home__lede">
-    I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests are mobile robot perception and navigation, robot learning, and simulation.
+    I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and vision-language-action models.
   </p>
 
   <div class="soon-home__links" aria-label="Profile links">
@@ -109,12 +109,16 @@ latest_posts:
 
   <div class="soon-home__focus" aria-label="Research interests">
     <div class="soon-home__focus-item">
-      <strong>Mobile robot perception and navigation</strong>
-      <span>Perception and navigation methods for mobile robotic systems.</span>
+      <strong>Mobile robot navigation</strong>
+      <span>Localization, planning, and control for autonomous mobile robots operating in complex real-world environments.</span>
     </div>
     <div class="soon-home__focus-item">
-      <strong>Robot learning and simulation</strong>
-      <span>Learning-based robotics and simulation-based development and evaluation.</span>
+      <strong>Simulation-based robotics</strong>
+      <span>Scalable and reproducible development, testing, and evaluation of robotic systems in simulated environments.</span>
+    </div>
+    <div class="soon-home__focus-item">
+      <strong>Vision-language-action models</strong>
+      <span>Models that integrate visual observations and language instructions to generate robot actions.</span>
     </div>
   </div>
 
