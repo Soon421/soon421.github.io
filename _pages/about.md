@@ -29,7 +29,7 @@ latest_posts:
 
   .soon-home__intro {
     display: grid;
-    grid-template-columns: 120px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 120px;
     gap: 1.2rem;
     align-items: start;
     margin: 0.45rem 0 1.6rem;
@@ -178,7 +178,7 @@ latest_posts:
 
   @media (max-width: 576px) {
     .soon-home__intro {
-      grid-template-columns: 96px minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) 96px;
       gap: 0.9rem;
     }
 
@@ -201,8 +201,6 @@ Candidate: "My goal is to build autonomous mobile robots that can operate reliab
 
 <div id="about" class="soon-home soon-home__section">
   <div class="soon-home__intro">
-    <img class="soon-home__portrait" src="{{ '/assets/img/soonhwan-kwon.jpg' | relative_url }}" alt="Portrait of Soonhwan Kwon" width="120" height="160" loading="eager">
-
     <div>
       <p class="soon-home__lede">
         I am <strong>Soonhwan Kwon (권순환)</strong>, an M.S. student in the Intelligent Systems & Robotics Lab at Korea University, advised by Prof. Woojin Chung. My research interests lie in mobile robot navigation, simulation-based robotics, and learning-based robotics.
@@ -214,6 +212,8 @@ Candidate: "My goal is to build autonomous mobile robots that can operate reliab
         <span id="cv" class="soon-home__link soon-home__link--disabled soon-home__section" aria-disabled="true">CV (PDF) · Coming soon</span>
       </div>
     </div>
+
+    <img class="soon-home__portrait" src="{{ '/assets/img/soonhwan-kwon.jpg' | relative_url }}" alt="Portrait of Soonhwan Kwon" width="120" height="160" loading="eager">
 
   </div>
 
