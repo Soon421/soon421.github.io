@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 1
 subtitle: >
   M.S. Student, Intelligent Systems & Robotics Lab<br>
   Korea University<br>
